@@ -1,17 +1,9 @@
-import Bubble from '@/components/icons/Bubble'
-
 export default function Home() {
   return (
     <>
-      <div class="chat-notification">
-        <div  class="chat-notification-logo-wrapper">
-          <Bubble />
-        </div>
-        <div class="chat-notification-content">
-          <h4 class="chat-notification-title">ChitChat</h4>
-          <p class="chat-notification-message">You have a new message!</p>
-        </div>
-      </div>
+      <button className="bg-gradient-to-r from-blue-900 to-blue-50 text-white px-4 py-2 rounded shadow-md focus:ring hover:bg-blue-500 transition-all hover:transform active:translate-y-1">
+        Este es el mejor botón
+      </button>
     </>
   )
 }
